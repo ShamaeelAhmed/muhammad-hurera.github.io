@@ -1,0 +1,89 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin:0px;
+    background-color: #1D1E20;
+}
+
+.right {
+    background-color:#1D1E20;
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+
+.right h1 , h2 , h3 ,h4{
+    color: white;
+}
+
+.right .featured-post-one ,.right  .featured-post-two ,.right .featured-post-three ,.right  .featured-post-four {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.right .featured-posts {
+    margin-top: 30px;;
+}
+
+.right a {
+    color: #244F39;
+}
+
+.right .slash {
+    color: #777678;
+}
+
+.right .fa-rocket ,.right .fa-layer-group ,.right .fa-shield-check ,.right .fa-desktop{
+    color: #244F39;
+    font-size: 25px;
+}
+
+.right p {
+    color: #777678;
+}
+
+.custom-hr {
+    width: 100%;
+    background-color: #777678;
+    height: 0.5px;
+    margin-bottom: 40px;
+}
+
+.left {
+    background-color: #16191A;
+    width: 46.7%;
+    float: left;
+    text-align: center;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+}
+
+.left h1 {
+    color: white;
+    text-align: center;
+}
+
+.left a{
+    color:#244F39;
+    text-decoration: none;
+    font-size:17px;
+    font-weight: bold;
+}
+
+.left .icons {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 165px;
+    color: white;
+}
+
+.left .fa-facebook , .left .fa-basketball-ball ,.left .fa-linkedin ,.left .fa-youtube  {
+    margin-left: 15px;
+}
