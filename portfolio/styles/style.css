@@ -30,25 +30,25 @@ body {
 }
 
 .right a {
-    color: #244F39;
+    color: #2ecc71;
 }
 
 .right .slash {
-    color: #777678;
+    color: #636e72;
 }
 
 .right .fa-rocket ,.right .fa-layer-group ,.right .fa-shield-check ,.right .fa-desktop{
-    color: #244F39;
+    color: #2ecc71;
     font-size: 25px;
 }
 
 .right p {
-    color: #777678;
+    color: #636e72;
 }
 
 .custom-hr {
     width: 100%;
-    background-color: #777678;
+    background-color: #2d3436;
     height: 0.5px;
     margin-bottom: 40px;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .left a{
-    color:#244F39;
+    color:#2ecc71;
     text-decoration: none;
     font-size:17px;
     font-weight: bold;
