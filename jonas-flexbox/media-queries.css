@@ -15,7 +15,32 @@
     margin-bottom: 20px;
   }
   .pizza__content {
-    padding: 20px 15px;
+    padding: 15px 15px;
+  }
+
+  .pizza__text {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .pizza__text {
+    margin-bottom: 20px;
+  }
+
+  .pizza__heading {
+    font-size: 100%;
+  }
+
+  .pizza__content {
+    padding: 25px 10px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  body {
+    padding: 50px 50px;
+    display: block;
   }
 }
 
@@ -69,7 +94,4 @@
     padding: 10px;
     writing-mode: horizontal-tb;
   }
-}
-
-@media screen and (max-width: 736px) {
 }
