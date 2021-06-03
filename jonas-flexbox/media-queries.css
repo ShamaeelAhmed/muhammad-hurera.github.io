@@ -23,6 +23,12 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .pizza__content {
+    padding: 25px 10px;
+  }
+}
+
 @media screen and (max-width: 985px) {
   .pizza__text {
     margin-bottom: 20px;
