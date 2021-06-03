@@ -1,0 +1,72 @@
+/* 
+//---------------------------------------------------
+// MEDIA QUERIES
+//---------------------------------------------------
+*/
+
+@media screen and (max-width: 900px) {
+  .pizza__content {
+    padding: 25px 20px;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .pizza__title {
+    margin-bottom: 20px;
+  }
+  .pizza__content {
+    padding: 20px 15px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .pizza__title {
+    margin-bottom: 15px;
+  }
+
+  .pizza__heading {
+    font-size: 100%;
+  }
+
+  .pizza__details {
+    justify-content: space-between;
+  }
+
+  .pizza__content {
+    padding: 15px 15px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .pizza {
+    flex-direction: column;
+  }
+  .pizza__hero {
+    width: 100%;
+  }
+
+  .pizza__heading {
+    font-size: 130%;
+  }
+
+  .pizza__content {
+    padding: 35px 30px;
+  }
+
+  .pizza__title {
+    margin-bottom: 20px;
+  }
+
+  .pizza__text {
+    margin-bottom: 40px;
+  }
+
+  .pizza__price {
+    background: linear-gradient(to bottom right, #4daf7c, #013243);
+    font-size: 100%;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    writing-mode: horizontal-tb;
+  }
+}
